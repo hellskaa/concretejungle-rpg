@@ -120,6 +120,12 @@
   object-fit:cover;
   object-position:center;}
 
+.feig {
+  width:110px;
+  height:110px;
+  object-fit:cover;
+  object-position:center;}
+
 .pixg11 {
   grid-column:1/2;
   grid-row:1/2;}
