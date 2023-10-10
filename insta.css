@@ -1,5 +1,5 @@
 .ig-box {
-  width:377px;
+  width:450px;
   min-height:65px;
   border-radius:10px;
   padding:20px;
@@ -13,6 +13,10 @@
 
 .ig-box k {
   font-weight:bold;
+  font-size:var(--medium-size);
+  text-transform:lowercase;}
+
+.ig-box tt {
   font-size:var(--medium-size);}
 
 .ig-box t {
@@ -22,7 +26,28 @@
   font-weight:bold;
   cursor:pointer;}
 
-.ig-img {margin-top:5px;width:335px;}
+.ig-img {
+  width:450px;
+  margin-lefT:-20px;}
+
+#ig-pseudo {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  font-size:var(--medium-size);
+  margin-bottom:-10px;}
+
+.pseudol {}
+.pseudor {}
+
+#ig-icons {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  font-size:20px;}
+
+.iconsl {}
+.iconsr {}
 
 .ig-top {
   display:grid;
@@ -72,37 +97,22 @@
   text-align:center;
   height:auto;}
 
-.ig-com {
-  display:grid;
-  grid-template-columns:65px 260px;
-  grid-template-rows:auto;
-  height:auto;
-  grid-gap:0px;
-  align-content:center;
-  margin-bottom:-25px;}
+#ig-com {
+  display:flex;
+  align-items:center;}
 
-.ig-com-left {
-  grid-column:1/2;
-  grid-row:1/2;
-  width:65px;
-  height:auto;}
-
-.ig-com-right {
-  grid-column:2/3;
-  grid-row:1/2;
-  width:260px;
-  height:auto;
-  margin-left:5px;
-  text-align:justify;}
-
-.ig-com img {
+.ig-coml {}
+.ig-coml img {
   width:60px;
   height:60px;
   border-radius:50%;
   object-fit:cover;
   object-position:center;
   padding:3px;
+  margin-right:10px;
   border:var(--border);}
+  
+.ig-comr {}
 
 .ig-icon {
   font-size:var(--medium-size);
@@ -110,16 +120,16 @@
 
 .feedig {
   display:grid;
-  grid-template-columns:112px 112px 112px;
-  grid-template-rows:112px 112px 112px;
+  grid-template-columns:132px 132px 132px;
+  grid-template-rows:132px 132px 132px;
   grid-gap:7px;
   justify-content:center;
   align-content:center;
   margin-bottom:-75px;}
 
 .feig {
-  width:110px;
-  height:110px;
+  width:130px;
+  height:130px;
   object-fit:cover;
   object-position:center;}
 
