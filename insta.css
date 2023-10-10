@@ -1,16 +1,20 @@
 .ig-box {
-  width:375px;
+  width:377px;
   min-height:65px;
   border-radius:10px;
   padding:20px;
   margin:auto;
   background:var(--bw);}
 
-.ig-box l, k {
+.ig-box l {
   font-weight:bold;
-  font-size:var(--big-size);}
-.ig-box k {font-size:var(--medium-size);}
-  
+  font-size:var(--big-size);
+  text-transform:lowercase;}
+
+.ig-box k {
+  font-weight:bold;
+  font-size:var(--medium-size);}
+ 
 .ig-box tag {
   font-weight:bold;
   cursor:pointer;}
@@ -100,3 +104,46 @@
 .ig-icon {
   font-size:var(--medium-size);
   font-weight:strong;}
+
+.feedig {
+  display:grid;
+  grid-template-columns:112px 112px 112px;
+  grid-template-rows:112px 112px 112px;
+  grid-gap:7px;
+  justify-content:center;
+  align-content:center;
+  margin-bottom:-75px;}
+
+.feedig img {
+  width:110px;
+  height:110px;
+  object-fit:cover;
+  object-position:center;}
+
+.pixg11 {
+  grid-column:1/2;
+  grid-row:1/2;}
+.pixg12 {
+  grid-column:2/3;
+  grid-row:1/2;}
+.pixg13 {
+  grid-column:3/4;
+  grid-row:1/2;}
+.pixg21 {
+  grid-column:1/2;
+  grid-row:2/3;}
+.pixg22 {
+  grid-column:2/3;
+  grid-row:2/3;}
+.pixg23 {
+  grid-column:3/4;
+  grid-row:2/3;}
+.pixg31 {
+  grid-column:1/2;
+  grid-row:3/4;}
+.pixg32 {
+  grid-column:2/3;
+  grid-row:3/4;}
+.pixg33 {
+  grid-column:3/4;
+  grid-row:3/4;}
