@@ -1,0 +1,159 @@
+/* EVENT */
+.event-box {
+  display:grid;
+  grid-template-columns:280px 150px 350px;
+  grid-template-rows:45px 150px;
+  grid-gap:20px;
+  margin-left:30px;
+  margin-bottom:-20px;}
+
+.event-topl {
+  display:flex;
+  grid-column:1/3;
+  grid-row:1/2;
+  width:450px;
+  height:45px;
+  justify-content:center;
+  align-items:center;
+  border-bottom:solid 2px var(--accent);}
+  
+.event-topr {
+  display:flex;
+  grid-column:3/4;
+  grid-row:1/2;
+  width:350px;
+  height:45px;
+  justify-content:center;
+  align-items:center;
+  margin-left:20px;
+  border-bottom:solid 2px var(--accent);}
+
+.event-left {
+  display:felx;
+  grid-column:1/2;
+  grid-row:2/3;
+  width:240px;
+  height:150px;
+  margin-top:-10px;
+  margin-left:20px;
+  text-align:justify;}
+
+.event-center {
+  display:flex;
+  grid-column:2/3;
+  grid-row:2/3;
+  width:150px;
+  height:150px;
+  justify-content:center;
+  align-items:center;
+  margin-left:-20px;
+  margin-top:-15px;}
+
+.event-right {
+  display:flex;
+  grid-column:3/4;
+  grid-row:2/3;
+  width:350px;
+  height:150px;
+  justify-content:center;
+  align-items:center;
+  margin-top:-15px;
+  margin-left:20px;}
+
+.event-right img {width:300px}
+
+.eventi {
+  color:var(--textColor);
+  text-align:right;
+  font-weight:600;
+  font-family:var(--font9);
+  font-size:25px;
+  position:relative;
+  letter-spacing:2px;
+  z-index:1;}
+.eventi l {color:var(--accent)}
+
+.eventi:before {
+  border-top:solid 2px var(--accent);
+  content:'';
+  margin:0 auto;
+  position:absolute;
+  top:14px;left:0;right:0;bottom:0;
+  width:100%;
+  opacity:1;
+  z-index:-1;}
+
+.eventi span {
+  background:var(--neutralDark); 
+  padding:0 10px;}
+
+eventitre {
+  color:var(--textColor);
+  text-transform:uppercase;
+  font-weight:800;
+  font-family:var(--font10);
+  font-size:var(--medium-size);
+  letter-spacing:1px;}
+eventitre l {color:var(--accent);}
+
+/* JAUGE */
+.progress-circle{
+  position:relative;
+  box-sizing:border-box;
+  font-size:10em; /*pour définir les dimensions*/
+  width:1em; /*fixe la largeur*/
+  height:1em; /*fixe la hauteur*/
+  border-radius:50%;
+  border:.15em solid var(--neutralDarker); /*fond de l'anneau*/
+  background-color:var(--neutral); /*fond de la progress bar*/}
+
+.progress-masque {
+  position:absolute;
+  width:1em; /*100% de la largeur*/
+  height:1em; /*100% de la hauteur*/
+  left:-.15em; /*décalage de la largeur bordure de la gauge*/
+  top:-.15em; /*décalage de la largeur bordure de la gauge*/
+  clip:rect(0, 1em, 1em, .5em); /*par défaut seule la partie droite est visible*/}
+
+.progress-circle[data-value^='5']:not([data-value='5']):not([data-value^='5.']) .progress-masque,
+.progress-circle[data-value^='6']:not([data-value='6']):not([data-value^='6.']) .progress-masque,
+.progress-circle[data-value^='7']:not([data-value='7']):not([data-value^='7.']) .progress-masque,
+.progress-circle[data-value^='8']:not([data-value='8']):not([data-value^='8.']) .progress-masque,
+.progress-circle[data-value^='9']:not([data-value='9']):not([data-value^='9.']) .progress-masque,
+.progress-circle[data-value^='100'] .progress-masque {clip:rect(auto, auto, auto, auto);}
+
+.progress-barre,
+.progress-sup50 {
+  position:absolute;
+  box-sizing:border-box;
+  border-width:.15em; /*largeur bordure de la gauge*/
+  border-style:solid;
+  border-color:var(--accent);
+  border-radius:50%;
+  width:1em; /*largeur à 100%*/
+  height:1em; /*hauteur à 100%*/
+  clip:rect(0, .5em, 1em, 0); /*on ne garde que la partie gauche*/}
+
+.progress-sup50 {
+  display:none;
+  clip:rect(0, 1em, 1em, .5em);}
+
+.progress-circle[data-value^='5']:not([data-value='5']):not([data-value^='5.']) .progress-sup50,
+.progress-circle[data-value^='6']:not([data-value='6']):not([data-value^='6.']) .progress-sup50,
+.progress-circle[data-value^='7']:not([data-value='7']):not([data-value^='7.']) .progress-sup50,
+.progress-circle[data-value^='8']:not([data-value='8']):not([data-value^='8.']) .progress-sup50,
+.progress-circle[data-value^='9']:not([data-value='9']):not([data-value^='9.']) .progress-sup50,
+.progress-circle[data-value^='100'] .progress-sup50 {display:block;}
+
+.progress-circle:after {
+  content:attr(data-value) "%";
+  font-size:0.15em; /*taille de la font en % du parent*/
+  height:100%; /*centrage dans le parent*/
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  /*pour effet shadow intérieur*/
+  border-radius:50%;
+  box-shadow:0 0 .5em rgba(0, 0, 0, .5) inset;
+  font-family:var(--font4);
+  color:var(--link);}
