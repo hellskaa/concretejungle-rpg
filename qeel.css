@@ -84,7 +84,7 @@
 #lastuser_avatar img {
   width:200px !important;
   height:155px !important;
-  filter:grayscale(100%)
+  filter:grayscale(100%);
   object-fit:cover;
   object-position:center;
   transition:var(--transi);}
