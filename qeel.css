@@ -84,7 +84,8 @@
 #lastuser_avatar img {
   width:200px !important;
   height:155px !important;
-  filter:grayscale(100%);
+  -webkit-filter: sepia(100%) hue-rotate(90deg) saturate(30%);
+  filter: sepia(100%) hue-rotate(90deg) saturate(30%);
   object-fit:cover;
   object-position:center;
   transition:var(--transi);}
