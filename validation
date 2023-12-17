@@ -24,12 +24,13 @@
 
 .vali-right a {
   color:var(--neutral);
-  font-family:var(--font10);
+  font-family:var(--font9);
   text-transform:uppercase;
   font-weight:700;
   letter-spacing:1px;
-  margin-left:10px;}
-.vali-right a:hover {color:var(--neutral);}
+  margin-left:10px;
+  transition:var(--transi);}
+.vali-right a:hover {color:#E0D8B7;}
 
 .vali-links {
   font-size:var(--normal-size);
