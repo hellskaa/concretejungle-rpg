@@ -33,7 +33,7 @@
 .newbie a {}
 
 .newbie:before {
-  border-top:2px solid var(--neutralDark);
+  border-top:2px solid var(--accent);
   content:"";
   margin:0 auto;
   position:absolute;
