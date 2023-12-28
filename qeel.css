@@ -33,8 +33,8 @@
 .newbie a {}
 
 .newbie:before {
-  border-top:2px solid var(--accent);
-  content:\"\";
+  border-top:2px solid var(--neutralDark);
+  content:"";
   margin:0 auto;
   position:absolute;
   top:8px; left:0; right:0; bottom:0;
@@ -129,7 +129,8 @@
   font-weight:600;
   font-family:var(--font4);
   text-align:center;
-  font-size:var(--little-size);}
+  font-size:var(--little-size);
+  line-height:1.4em;}
 .qeel-stat l {color:var(--accent-dark);font-size:var(--normal-size);}
 
 .qeel-bouille #lastuser_avatar img {
