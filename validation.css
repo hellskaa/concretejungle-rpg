@@ -29,7 +29,7 @@
   letter-spacing:1px;
   margin-left:10px;
   transition:var(--transi);}
-.vali-right a:hover {color:var(--accent);}
+.vali-right a:hover {color:var(--dark-accent);}
 
 .vali-links {
   font-size:var(--normal-size);
