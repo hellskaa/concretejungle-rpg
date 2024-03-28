@@ -186,7 +186,7 @@
   border-radius:4px;
   width:100%;
   background-color:var(--neutralDark);
-  color:var(--contrastLight);
+  color:var(--textColor);
   cursor:text;}
 
 /* Bouton de connexion */
