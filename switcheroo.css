@@ -201,11 +201,11 @@
   align-self:center;
   background-color:var(--accent);
   cursor:pointer;
-  color:var(--neutral);
+  color:var(--textColor);
   font-weight:600;
   margin-top:10px;}
 
-.switcheroo__form-button:hover {background:var(--contrastLight);}
+.switcheroo__form-button:hover {background:var(--accent-light);}
 
 .monomer-modal.monomer-open, .monomer-overlay.monomer-open {opacity:1;}
 
@@ -222,9 +222,9 @@
   color:var(--textColor);
   border:0;
   outline:none;
-  background:var(--contrastLighter);
+  background:var(--accent);
   border-radius:4px;
   padding:0;
   padding-left:1px;}
 
-.monomer-close:hover {background:var(--contrastLight);}
+.monomer-close:hover {background:var(--accent-light);}
