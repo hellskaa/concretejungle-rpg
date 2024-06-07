@@ -77,10 +77,13 @@
   background:var(--deg);
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent;}
+
 .up-icons:hover {rotate:360deg;}
 
 .panel_bn_global { /* Bloc-notes */
-  width:220px;}
+  width:220px;
+  z-index:999;}
+
 .notepad {
   background-color:var(--neutral);
   border:1px solid var(--link);
@@ -88,4 +91,5 @@
   height:121px;
   overflow:auto;
   padding:5px;
-  width:220px;}
+  width:220px;
+  z-index:999;}
