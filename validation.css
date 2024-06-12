@@ -29,17 +29,17 @@
   letter-spacing:1px;
   margin-left:10px;
   transition:var(--transi);}
-.vali-right a:hover {color:var(--dark-accent);}
 
 .vali-links {
   font-size:var(--normal-size);
   text-transform:uppercase;
   background:var(--deg);
   color:var(--neutral);
-  padding:4px;
+  padding:6px 4px 4px 4px;
   font-family:var(--font4);
   text-transform:uppercase;
   letter-spacing:2px;
   margin-top:12px;}
+.vali-links a:hover {color:var(--dark-accent);}
 .vali-links:first-child {margin-top:6px;}
 .vali-links:last-child {margin-bottom:0px;}
