@@ -1,7 +1,7 @@
 .vali {
   display:grid;
   grid-template-columns:270px 200px;
-  grid-template-rows:270px;
+  grid-template-rows:290px;
   grid-gap:15px;
   width:485px;
   align-content:center;
