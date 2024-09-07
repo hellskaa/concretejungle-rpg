@@ -1,0 +1,49 @@
+#myProgress {
+  width:400px;
+  height:20px;
+  border-radius:20px;
+  background-color:var(--neutralDarker);
+  margin-bottom:3px;}
+
+#myBar1, #myBar2 {
+  height:20px;
+  border-radius:20px;}
+#myBar1 {
+  width:58%; /*LEFT TEAM*/
+  background:var(--progress1);}
+#myBar2 {
+  width:74%; /*RIGHT TEAM */
+  background:var(--progress2);}
+
+.talent-box {
+  display:grid;
+  grid-template-columns:420px 440px;
+  grid-template-rows:100px;
+  grid-gap:40px;
+  margin:auto;}
+
+.talent-left {
+  grid-column:1/2;
+  grid-row:1/2;
+  padding-left:40px;}
+  
+.talent-right {
+  grid-column:2/3;
+  grid-row:1/2;
+  padding-right:20px;}
+
+talent {
+  margin:40px auto;
+  font-family:var(--font3);
+  font-size:30px;
+  font-weight:bold;
+  color:#f1e5c1;
+  text-align:center;
+  letter-spacing:5px;
+  text-shadow:2px 3px 0 #eb8529,
+      4px 5px 0 #d42b31,
+      6px 7px 0 #a12a67;}
+
+.br-talent {
+  display: block; 
+  margin-bottom: 1em; } 
