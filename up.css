@@ -37,7 +37,7 @@
   white-space: pre-wrap;
   width:350px;
   justify-content:center;
-  background:var(--neutralDark);
+  background:var(--neutral);
   padding:5px;
   margin-bottom:5px;
   align-items:center;}
