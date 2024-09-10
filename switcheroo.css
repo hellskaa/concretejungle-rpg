@@ -65,7 +65,7 @@
 /* AJOUTER UN COMPTE ---*/
 /* button : ajouter un compte */
 .switcheroo__squircle--button {
-  background:var(--neutralDarker);
+  background:var(--neutralDark);
   color:var(--link);
   opacity:.5;}
 
