@@ -196,7 +196,7 @@
   box-shadow:none;
   text-transform:uppercase;
   font-size:14px;
-  line-height:1.4rem;
+  line-height:1.4em;
   align-self:center;
   background-color:var(--link);
   cursor:pointer;
