@@ -22,7 +22,7 @@
   display:inline-block;}
 
 .vali-right a {
-  color:var(--neutral);
+  color:var(--ww);
   font-family:var(--font9);
   text-transform:uppercase;
   font-weight:700;
