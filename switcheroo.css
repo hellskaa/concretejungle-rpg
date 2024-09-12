@@ -101,7 +101,7 @@
 /* TOOLTIP - INFOBULLE DU PSEUDO ---*/
 /* Conteneur du pseudo */
 .switcheroo__popper {
-  background-color:var(--neutralDarker);
+  background-color:var(--neutral);
   padding:0.30rem 1rem;
   position:absolute;
   width:-webkit-max-content;
@@ -123,7 +123,7 @@
   position:absolute;
   width:20px;
   height:20px;
-  background-color:var(--neutralDarker);
+  background-color:var(--neutralDark);
   z-index:-1;
   left:-3px;
   top:50%;
@@ -148,7 +148,7 @@
   width:100%;
   height:100%;
   transition:0.2s opacity ease;
-  background:rgba(0, 0, 0, 0.2);}
+  background:var(--neutral);}
 
 /* Boîte de connexion */
 .monomer-modal {
@@ -183,7 +183,6 @@
 /* Zone de texte */
 .switcheroo__form-input {
   padding:6px!important;
-  border-radius:4px;
   width:100%;
   background-color:var(--neutralDark);
   color:var(--textColor);
@@ -191,21 +190,21 @@
 
 /* Bouton de connexion */
 .switcheroo__form-button {
-  border-radius:8px;
   padding:4px 10px 5px;
-  border:none;
+  border:var(--border);
   outline:none;
   box-shadow:none;
   text-transform:uppercase;
   font-size:14px;
+  line-height:1.4rem;
   align-self:center;
-  background-color:var(--accent);
+  background-color:var(--link);
   cursor:pointer;
-  color:var(--textColor);
+  color:var(--ww);
   font-weight:600;
   margin-top:10px;}
 
-.switcheroo__form-button:hover {background:var(--accent-light);}
+.switcheroo__form-button:hover {background:var(--linkh);}
 
 .monomer-modal.monomer-open, .monomer-overlay.monomer-open {opacity:1;}
 
@@ -219,12 +218,12 @@
   top:5px;
   right:5px;
   cursor:pointer;
-  color:var(--textColor);
+  color:var(--ww);
   border:0;
   outline:none;
-  background:var(--accent);
+  background:var(--link);
   border-radius:4px;
   padding:0;
   padding-left:1px;}
 
-.monomer-close:hover {background:var(--accent-light);}
+.monomer-close:hover {background:var(--linkh);}
