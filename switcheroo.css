@@ -92,7 +92,7 @@
   transition:transform 128ms var(--ease), opacity 64ms var(--ease);
   cursor:pointer;
   color:var(--ww);
-  line-height:0;}
+  line-height:1.4em;}
 
 .switcheroo__squircle:hover .switcheroo__delete {
   opacity:1;
