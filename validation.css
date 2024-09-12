@@ -34,12 +34,12 @@
   font-size:var(--normal-size);
   text-transform:uppercase;
   background:var(--deg);
-  color:var(--neutral);
+  color:var(--ww);
   padding:6px 4px 4px 4px;
   font-family:var(--font4);
   text-transform:uppercase;
   letter-spacing:2px;
   margin-top:12px;}
-.vali-links a:hover {color:var(--textColor);}
+.vali-links a:hover {color:var(--ww);}
 .vali-links:first-child {margin-top:6px;}
 .vali-links:last-child {margin-bottom:0px;}
