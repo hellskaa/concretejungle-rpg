@@ -161,7 +161,7 @@
   padding:30px;
   transition:0.2s opacity ease;
   transform:translate(-50%, -50%);
-  background:var(--neutral);
+  background:#fff; /*test*/
   padding:50px;
   box-shadow:var(--shadowBox);}
 
