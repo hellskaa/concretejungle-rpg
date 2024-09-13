@@ -65,7 +65,7 @@
   margin-bottom:-14px;}
 
 .up-an a {color:var(--ww);}
-.up-an a:hover {color:var(--ww);}
+.up-an a:hover {color:var(--ww) !important;}
 
 .up-icons {
   font-size:40px;
