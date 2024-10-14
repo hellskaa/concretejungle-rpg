@@ -200,13 +200,15 @@
   grid-column:2/3;
   grid-row:1/2;
   width:370px;
-  margin-left:-10px;}
+  margin-left:-10px;
+  margin-top:-9px;}
 
 .sms-right:before {
   content:"◀";
   float:left;
+  font-size:var(--title-size);
   color:var(--bordercolor);
-  margin:43px 0px 0px 8px;}
+  margin:50px 0px 0px 10px;}
 
 .sms-edit {display:inline-block;float:right;margin-right:18px;}
 
