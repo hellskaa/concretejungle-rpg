@@ -234,7 +234,7 @@
   border-radius:0px 0px 5px 5px;}
 
 .sms-date {text-align:right !important;margin-right:18px;margin-bottom:5px;}
-.sms-date i {color:var(--accent-dark);font-size:20px;}
+.sms-date i {color:var(--accent-dark);font-size:20px;margin-top:5px;}
 
 .sms-mess-bottom img {
   max-width:100%;
