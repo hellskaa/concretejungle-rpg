@@ -19,3 +19,9 @@
     --title-size:22px;
     --giant-size:28px;
 }
+
+.mess {
+  width:100%;
+  background:var(--neutralDarker);
+  padding:15px;
+  text-align:justify;}
