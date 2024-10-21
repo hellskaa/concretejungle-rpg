@@ -1,0 +1,9 @@
+:root {
+--accent:#54a8b2; /*couleur accent*/
+--accent-dark:#7d72be; /*version plus foncée*/
+--accent-light:#75b1b8; /*version plus claire*/
+  
+--neutral:#c7c7c7; /*couleur la plus claire - fond des catégories*/
+--neutralDark:#c1c1c1; /*couleur moyenne - fond des messages admin*/
+--neutralDarker:#b8b8b8; /*couleur la plus sombre - fond des cadres écriture*/
+}
