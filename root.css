@@ -6,4 +6,16 @@
 --neutral:#c7c7c7; /*couleur la plus claire - fond des catégories*/
 --neutralDark:#c1c1c1; /*couleur moyenne - fond des messages admin*/
 --neutralDarker:#b8b8b8; /*couleur la plus sombre - fond des cadres écriture*/
+
+  --link:#2b4a6f; /*couleur des liens*/
+    --linkh:#486987; /*couleur des liens en hover*/
+    --linkb:#283e6a; /*couleur nouveau/répondre*/
+
+  --little-size:12px;
+    --normal-size:14px;
+    --medium-size:16px;
+    --large-size:18px;
+    --big-size:20px;
+    --title-size:22px;
+    --giant-size:28px;
 }
