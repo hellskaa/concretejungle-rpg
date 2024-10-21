@@ -43,3 +43,5 @@
 .vali-links a:hover {color:var(--ww);}
 .vali-links:first-child {margin-top:6px;}
 .vali-links:last-child {margin-bottom:0px;}
+
+.vali-links i {margin-right:5px;}
