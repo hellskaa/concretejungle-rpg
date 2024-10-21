@@ -200,6 +200,7 @@ persotw:before {
   object-fit:cover;
   object-position:center;
   padding:7px;
+  margin-left:-7px;
   background-color:var(--neutral);
   float:left;}
 
