@@ -1,3 +1,66 @@
+.valide {
+  display:grid;
+  grid-template-columns:300px 200px;
+  grid-template-rows:262px;
+  grid-gap:15px;
+  width:515px;
+  align-content:center;
+  margin:auto;
+  margin-bottom:-25px;}
+
+.valide-left {
+  grid-column:1/2;
+  grid-row:1/2;
+  padding:15px;
+  background:var(--neutralDarker);}
+  
+.valide-right {
+  grid-column:2/3;
+  grid-row:1/2;
+  margin-top:-5px;
+  text-align:left;
+  display:inline-block;}
+
+.valide-right a {
+  color:var(--ww);
+  font-family:var(--font9);
+  text-transform:uppercase;
+  font-weight:700;
+  letter-spacing:1px;
+  margin-left:10px;
+  transition:var(--transi);}
+
+.valide-links {
+  font-size:var(--normal-size);
+  text-transform:uppercase;
+  background:var(--deg);
+  color:var(--ww);
+  padding:6px 4px 4px 4px;
+  font-family:var(--font4);
+  text-transform:uppercase;
+  letter-spacing:2px;
+  margin-top:12px;}
+.valide-links a:hover {color:var(--ww);}
+.valide-links:first-child {margin-top:6px;}
+.valide-links:last-child {margin-bottom:0px;}
+
+.valide-links i {margin-right:5px;}
+
+validetw { 
+  border-left:2px solid var(--accent);
+  display:block;
+  margin:auto;
+  padding:3px 10px 3px 10px;
+  margin-left:25px;}
+validetw:before { 
+  content:'\F708';
+  display:block;
+  float:left;
+  margin-left:-35px;
+  font-family:var(--boot);}
+
+/*** ancienne version ***/
+
 .vali {
   display:grid;
   grid-template-columns:270px 200px;
@@ -45,3 +108,4 @@
 .vali-links:last-child {margin-bottom:0px;}
 
 .vali-links i {margin-right:5px;}
+
