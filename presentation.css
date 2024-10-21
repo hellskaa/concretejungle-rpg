@@ -207,7 +207,7 @@ preso-pseudo {
   -webkit-text-stroke:1px var(--textColorAccent);
   -webkit-text-fill-color:transparent;
   font-size:var(--giant-size);
-  text-transform:lowercase;
+  text-transform:uppercase;
   font-family:var(--font4);
   letter-spacing:1px;
   margin-bottom:12px;
