@@ -1,17 +1,16 @@
 .valide {
   display:grid;
-  grid-template-columns:300px 200px;
-  grid-template-rows:262px;
-  grid-gap:15px;
-  width:515px;
+  grid-template-columns:275px 240px;
+  grid-template-rows:198px;
+  grid-gap:20px;
+  width:535px;
   align-content:center;
   margin:auto;
-  margin-bottom:-25px;}
+  margin-bottom:-40px;}
 
 .valide-left {
   grid-column:1/2;
   grid-row:1/2;
-  padding:15px;
   background:var(--neutralDarker);}
   
 .valide-right {
@@ -26,7 +25,7 @@
   font-family:var(--font9);
   text-transform:uppercase;
   font-weight:700;
-  letter-spacing:1px;
+  letter-spacing:2px;
   margin-left:10px;
   transition:var(--transi);}
 
@@ -35,7 +34,7 @@
   text-transform:uppercase;
   background:var(--deg);
   color:var(--ww);
-  padding:6px 4px 4px 4px;
+  padding:3px 3px 3px 8px;
   font-family:var(--font4);
   text-transform:uppercase;
   letter-spacing:2px;
@@ -46,13 +45,14 @@
 
 .valide-links i {margin-right:5px;}
 
-validetw { 
+congrats { 
   border-left:2px solid var(--accent);
   display:block;
   margin:auto;
   padding:3px 10px 3px 10px;
   margin-left:25px;}
-validetw:before { 
+
+congrats:before { 
   content:'\F708';
   display:block;
   float:left;
