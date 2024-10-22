@@ -205,8 +205,7 @@ persotw:before {
   float:left;}
 
 preso-pseudo {
-  -webkit-text-stroke:1px var(--accent-dark);
-  -webkit-text-fill-color:transparent;
+  color:var(--accent-dark);
   font-size:var(--giant-size);
   text-transform:uppercase;
   font-family:var(--font4);
