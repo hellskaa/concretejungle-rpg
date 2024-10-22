@@ -1,0 +1,68 @@
+:root {
+--accent:#54a8b2; /*couleur accent*/
+--accent-dark:#7d72be; /*version plus foncée*/
+--accent-light:#75b1b8; /*version plus claire*/
+  
+--neutral:#c7c7c7; /*couleur la plus claire - fond des catégories*/
+--neutralDark:#c1c1c1; /*couleur moyenne - fond des messages admin*/
+--neutralDarker:#b8b8b8; /*couleur la plus sombre - fond des cadres écriture*/
+
+--link:#2b4a6f; /*couleur des liens*/
+--linkh:#486987; /*couleur des liens en hover*/
+--linkb:#283e6a; /*couleur nouveau/répondre*/
+
+--little-size:12px;
+--normal-size:14px;
+--medium-size:16px;
+--large-size:18px;
+--big-size:20px;
+--title-size:22px;
+--giant-size:28px;
+}
+
+.cjmess {
+  width:100%;
+  background:var(--neutralDarker);
+  padding:20px;
+  text-align:justify;}
+
+.cjmess a {
+  font-weight:bold;
+  color:var(--accent-dark);}
+
+.cjtitre {
+  background-color:var(--neutralDarker);
+  height:127px;
+  width:100%;
+  border-radius:127px 0 0 127px;
+  text-align:right;
+  padding:12px;
+  padding-left:130px;
+  overflow:auto;}
+
+.cjicon {
+  position:absolute;
+  width:127px;
+  height:127px;
+  border-radius:50%;
+  object-fit:cover;
+  object-position:center;
+  padding:7px;
+  margin-left:-7px;
+  background-color:var(--fond-inside);
+  float:left;}
+
+.cjtitre cj {
+  -webkit-text-stroke:1px var(--accent-dark);
+  -webkit-text-fill-color:transparent;
+  font-size:var(--giant-size);
+  text-transform:uppercase;
+  font-family:var(--font4);
+  font-weight:600;
+  letter-spacing:1px;
+  margin-bottom:12px;
+  display:inline-block;}
+
+.cjtitre cit {
+  font-style:italic;
+  opacity:0.8;}
