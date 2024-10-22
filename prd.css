@@ -1,15 +1,15 @@
 :root {
---accent:#54a8b2; /*couleur accent*/
---accent-dark:#7d72be; /*version plus foncée*/
---accent-light:#75b1b8; /*version plus claire*/
+--accent:#54a8b2;
+--accent-dark:#756ca4;
+--accent-light:#5e979d;
   
 --neutral:#c7c7c7; /*couleur la plus claire - fond des catégories*/
 --neutralDark:#c1c1c1; /*couleur moyenne - fond des messages admin*/
 --neutralDarker:#b8b8b8; /*couleur la plus sombre - fond des cadres écriture*/
 
---link:#2b4a6f; /*couleur des liens*/
---linkh:#486987; /*couleur des liens en hover*/
---linkb:#283e6a; /*couleur nouveau/répondre*/
+--link:#756ca4;
+--linkh:#998fcc;
+--linkb:#756ca4;
 
 --little-size:12px;
 --normal-size:14px;
