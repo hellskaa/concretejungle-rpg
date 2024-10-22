@@ -28,7 +28,10 @@
 
 .cjmess a {
   font-weight:bold;
-  color:var(--accent-dark);}
+  color:var(--link);}
+
+.cjmess a:hover {
+  color:var(--linkh);}
 
 .cjtitre {
   background-color:var(--neutralDarker);
