@@ -66,3 +66,14 @@
 .cjtitre cit {
   font-style:italic;
   opacity:0.8;}
+
+uu {
+  font-weight:500;
+  padding:0px 5px 0px 5px;
+  text-shadow:1px 1px 1px var(--neutral);
+  box-shadow:inset 0 -4px 0 var(--accent-dark);}
+
+ii {
+  font-style:italic;
+  color: var(--accent);
+text-shadow:0px 1px 1px var(--accent-darker);}
