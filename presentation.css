@@ -214,6 +214,8 @@ preso-pseudo {
   margin-bottom:12px;
   display:inline-block;}
 
+preso-pseudo l {color:var(--accent);}
+
 preso-cit {
   font-style:italic;
   opacity:0.8;}
