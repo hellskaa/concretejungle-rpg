@@ -86,9 +86,9 @@
   height:155px !important;
   object-fit:cover;
   object-position:center;
-  filter:grayscale(100%);
+  filter:grayscale(100%) sepia(50%);;
   transition:var(--transi);}
-#lastuser_avatar img:hover {filter:grayscale(0%);}
+#lastuser_avatar img:hover {filter:grayscale(0%) sepia(0%);}
 
 .qeel-groupe {
   grid-column:2 / 3;
