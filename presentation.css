@@ -156,7 +156,7 @@ select:focus {outline:none;}
   width:100%;
   background:var(--neutralDarker);
   text-align:justify;
-  min-height:450px;
+  min-height:600px;
   max-height:600px;
   padding:15px !important;
   overflow:auto !important;}
